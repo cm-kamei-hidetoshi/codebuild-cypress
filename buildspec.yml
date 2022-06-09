@@ -28,5 +28,4 @@ phases:
       - yarn install
   build:
     commands:
-      - cd e2e
       - yarn ci:run
